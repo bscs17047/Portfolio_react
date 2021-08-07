@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button'
 
+
 const myURL ='https://drive.google.com/uc?export=download&id=1fusYTHVXlwZKN1mkGZE3gY2db7TMkscq'; // link to download
 
 export default function CarouselComp() {
@@ -18,7 +19,8 @@ export default function CarouselComp() {
     />
     <Carousel.Caption>
     <Button variant="outline-light" onClick={()=>{window.location=myURL}}>Download Resume</Button>
-        <h6>React | React Native Developer</h6>
+    
+        <h6 style={{padding: '10px'}}>React Developer</h6>
       <h2>Abdul Rehman</h2>
       <p>Having a professional attitude towards work and capable of learning new technologies. 
       Experienced in working with Agile methodology and Scrum Methodology. Working knowledge in JS, HTML, CSS and React Native. Having strong written and verbal communication skills as well as technical skills. 
@@ -33,8 +35,9 @@ export default function CarouselComp() {
       alt="Second slide"
     />
     <Carousel.Caption>
-    <Button variant="outline-light" onClick={()=>{window.location=myURL}}>Download Resume</Button>
-        <h6>React | React Native Developer</h6>
+    <Button variant="outline-light"   onClick={()=>{window.location=myURL}}>Download Resume</Button>
+    
+        <h6 style={{padding: '10px'}}>React Native Developer</h6>
       <h2>Abdul Rehman</h2>
       <p>Having a professional attitude towards work and capable of learning new technologies. 
       Experienced in working with Agile methodology and Scrum Methodology. Working knowledge in JS, HTML, CSS and React Native. Having strong written and verbal communication skills as well as technical skills. 
@@ -51,7 +54,8 @@ export default function CarouselComp() {
     <Carousel.Caption>
     
     <Button variant="outline-light" onClick={()=>{window.location=myURL}}>Download Resume</Button>
-        <h6>React | React Native Developer</h6>
+    
+        <h6 style={{padding: '10px'}}>Expo Developer</h6>  
       <h2>Abdul Rehman</h2>
       <p>Having a professional attitude towards work and capable of learning new technologies. 
       Experienced in working with Agile methodology and Scrum Methodology. Working knowledge in JS, HTML, CSS and React Native. Having strong written and verbal communication skills as well as technical skills. 
