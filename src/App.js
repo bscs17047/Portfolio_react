@@ -3,6 +3,8 @@ import './App.css';
 import NavbarComp from './Components/Navbar.js'
 import CarouselComp from './Components/CarouselComp'
 import Tabs from './Components/Portfolio'
+import Footer from './Components/Footer'
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       </div>
       <NavbarComp className='NavbarCompClass' style={{}}/>
       <Tabs/>
+      <Footer/>
     </div>
 
   );
