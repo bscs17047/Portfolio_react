@@ -4,6 +4,7 @@ import NavbarComp from './Components/Navbar.js'
 import CarouselComp from './Components/CarouselComp'
 import Tabs from './Components/Portfolio'
 import Footer from './Components/Footer'
+import Contact from './Components/Contact'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       </div>
       <NavbarComp className='NavbarCompClass' style={{}}/>
       <Tabs/>
+      <Contact></Contact>
       <Footer/>
     </div>
 
