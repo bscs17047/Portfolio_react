@@ -8,10 +8,10 @@ const myURL ='https://drive.google.com/uc?export=download&id=1fusYTHVXlwZKN1mkGZ
 
 export default function CarouselComp() {
     return (
-        <div>
+        <div id='home'>
             <>
 <Carousel variant="light" controls={false}>
-  <Carousel.Item>
+  <Carousel.Item className="d-block w-100">
     <img
       className="d-block w-100"
       src="https://images.unsplash.com/photo-1561494653-744c43aed0c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1029&q=80"
@@ -28,7 +28,7 @@ export default function CarouselComp() {
 
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item className="d-block w-100">
     <img
       className="d-block w-100"
       src="https://images.unsplash.com/photo-1561494653-744c43aed0c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1029&q=80"
@@ -44,7 +44,7 @@ export default function CarouselComp() {
       Able to provide feedback and share the same on daily basis.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item className="d-block w-100">
   <img
       className="d-block w-100"
       src="https://images.unsplash.com/photo-1561494653-744c43aed0c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1029&q=80"

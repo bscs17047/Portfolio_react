@@ -9,11 +9,13 @@ import Contact from './Components/Contact'
 
 function App() {
   return (
-    <div>
+    <div class='d-flex flex-column'>
+      <div>
+        <NavbarComp className='NavbarCompClass' style={{}}/>
+      </div>
       <div className='carousel-image-size'>
         <CarouselComp />
       </div>
-      <NavbarComp className='NavbarCompClass' style={{}}/>
       <Tabs/>
       <Contact></Contact>
       <Footer/>
