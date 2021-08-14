@@ -5,20 +5,18 @@ import CarouselComp from './Components/CarouselComp'
 import Tabs from './Components/Portfolio'
 import Footer from './Components/Footer'
 import Contact from './Components/Contact'
+import Resume from './Components/Resume'
 
 
 function App() {
   return (
     <div class='d-flex flex-column'>
-      <div>
-        <NavbarComp className='NavbarCompClass' style={{}}/>
-      </div>
-      <div className='carousel-image-size'>
-        <CarouselComp />
-      </div>
-      <Tabs/>
-      <Contact></Contact>
-      <Footer/>
+        <NavbarComp className='NavbarCompClass' />
+        <CarouselComp className='carousel-image-size'/>
+      <Tabs />
+      <Resume />
+      <Contact />
+      <Footer />
     </div>
 
   );

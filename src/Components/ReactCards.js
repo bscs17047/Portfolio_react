@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import './portfolio.css'
 import { FaGithub } from "react-icons/fa";
+import Button from 'react-bootstrap/Button'
 
 const myURL = "https://github.com/bscs17047"
 
@@ -18,6 +19,7 @@ export default function ReactCards() {
                     This is a wider card with supporting text below as a natural lead-in to
                     additional content. This content is a little bit longer.
                 </Card.Text>
+                <Button variant="primary">Demo</Button>
                 </Card.Body>
                 <Card.Footer style={ {cursor: "pointer"}} onClick={()=>{window.open(myURL ,'_blank')}}>
       <small><FaGithub /> Source Code</small>
@@ -31,6 +33,7 @@ export default function ReactCards() {
                     This card has supporting text below as a natural lead-in to additional
                     content.{' '}
                 </Card.Text>
+                <Button variant="primary">Demo</Button>
                 </Card.Body>
                 <Card.Footer style={ {cursor: "pointer"}} onClick={()=>{window.open(myURL ,'_blank')}}>
       <small><FaGithub /> Source Code</small>
@@ -45,6 +48,7 @@ export default function ReactCards() {
                     additional content. This card has even longer content than the first to
                     show that equal height action.
                 </Card.Text>
+                <Button variant="primary">Demo</Button>
                 </Card.Body>
                 <Card.Footer style={ {cursor: "pointer"}} onClick={()=>{window.open(myURL ,'_blank')}}>
       <small><FaGithub /> Source Code</small>

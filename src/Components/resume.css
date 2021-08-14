@@ -1,0 +1,33 @@
+.resume_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: white;
+}
+
+.left_content_resume {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.right_content_resume {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
